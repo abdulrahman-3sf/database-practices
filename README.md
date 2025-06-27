@@ -1,37 +1,56 @@
-# 📘 Relational Database Diagrams for Training
+# 📘 Database Practice Materials
 
-This repository contains five relational database diagrams designed for training and learning purposes. Each diagram represents a basic system and shows how to structure tables, relationships, and keys.
+This repository contains two main resources for learning relational databases:
 
-## 📁 Folder Structure
-
-All ER diagrams are located in the folder:  
-`/diagrams/`
-
-## 🗂️ Included Projects
-
-1. **Simple Clinic** – basic system for managing patients, doctors, and appointments  
-2. **Simple Library** – tracks books, members, borrow, fines, and returns  
-3. **Simple Karate Club** – manages members, instructors, belts, and fees  
-4. **Simple Car Rent** – handles car rentals, customers, payments, and returns  
-5. **Simple Online Store** – includes orders, products, payments, shipping, and reviews
-
-## 🎯 Purpose
-
-These diagrams are intended to:
-- Help beginners understand relational database design
-- Provide practice materials for converting ERDs to SQL
-- Be used as part of personal or academic training
-
-## ✅ Coming Soon
-
-A folder for **SQL training** will be added later, including:
-
-- Sample queries  
-- Data insertion examples  
-- **50 practical SQL problems** with solutions  
-  > These problems will be based on real car data and designed to improve skills in querying, filtering, joining, grouping, subqueries, and more.
-
+1. **SQL Training** – hands-on practice with real-world problems  
+2. **Relational Database Diagrams** – clean ER diagrams for design and modeling practice
 
 ---
 
-Feel free to use these diagrams in your own learning journey!
+## 📂 Folder Structure
+
+- [`/SQL training/`](https://github.com/abdulrahman-3sf/database-practices/tree/main/SQL%20training) ← SQL scripts and exercises  
+- [`/diagrams/`](https://github.com/abdulrahman-3sf/database-practices/tree/main/diagrams) ← Entity-Relationship (ER) diagrams 
+
+---
+
+## 🧪 SQL Training
+
+This section provides practical SQL exercises based on real-world inspired data.
+
+### 🚗 VehicleMakesDB
+- Schema and data for vehicle manufacturers and models  
+- Practice queries using `JOIN`, `GROUP BY`, `HAVING`, `MAX`, and more  
+- Based on real car data
+
+### 👥 EmployeesDB
+- Schema and records for an employee management system  
+
+Each folder includes:
+- `SQLQuery.sql` with ready-to-run examples  
+- Additional resources to reinforce learning
+
+---
+
+## 🧾 Relational Database Diagrams
+
+Five ER diagrams are included to support understanding of relational database design. Each diagram is suitable for beginners and illustrates tables, relationships, and keys.
+
+### 🗂️ Included Projects (in `/diagrams/`)
+- **Simple Clinic** – patients, doctors, and appointments  
+- **Simple Library** – books, members, borrow/return system  
+- **Simple Karate Club** – members, instructors, belts, fees  
+- **Simple Car Rent** – rentals, customers, payments  
+- **Simple Online Store** – orders, products, shipping, and reviews  
+
+---
+
+## 🎯 Purpose
+
+- Help understand database schemas and relationships  
+- Provide materials to practice writing SQL and designing ERDs  
+- Support self-study, tutorials, or academic projects  
+
+---
+
+Feel free to use these materials in your own learning journey, and stay tuned for more additions!
